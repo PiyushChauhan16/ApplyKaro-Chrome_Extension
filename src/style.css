@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400;500&family=Roboto:wght@100;400;500&display=swap');
+
+
+body{
+    font-size: 13px;;
+    font-family: Montserrat;
+    
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left:43px;
+    top: 0px;
+    
+    
+}
+button{
+    font-family: Montserrat;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    padding: 6px 15px 6px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+input{
+    padding: 5px 5px 5px 12px;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    font-family: Montserrat;
+    width: 14rem;
+    margin-top: 3px;
+    margin-bottom: 15px;;
+    font-size: 13px;
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 10px;
+    height: 8rem;;
+    width: 350px;;
+    font-family: Montserrat;
+}
+
+label{
+    font-weight: 400;
+}
+
+
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.experience-div, .personalDetails-div, .academics-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(223, 220, 220);
+    padding: 45px 20px 20px 20px;  
+
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.card{
+    border: solid;
+    margin: 20px 20px 0px 20px;
+    padding: 20px 25px 20px 25px;
+    background-color: white;
+    border-radius: 25px;;
+    min-width: 370px;
+    max-width: 370px;
+    border: none;
+
+}
+
+
+
+
+
+.add-btn{
+    margin-top: 0px;;
+}
+
+.add-exp-btn{
+    margin-right: 300px;;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.save-btn{
+    margin-right: 320px;;
+    
+    background-color: rgb(223, 24, 24);
+    border: none;
+    margin-left: 10px;;
+    padding-top: 7px;
+    padding-bottom: 8px;;
+    display: block;
+}
+
+.link-div{
+    position: relative;
+}
+
+.del-btn{
+    position: absolute;
+    padding: 0px;
+    color: black;
+    background-color: white;
+    border: none;
+    right: 135px;
+    bottom: 20px;
+}
+
+.complete-info-heading{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
